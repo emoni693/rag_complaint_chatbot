@@ -1,0 +1,17 @@
+# Ignore large data and models
+*.csv
+*.json
+*.pkl
+*.faiss
+*.bin
+*.safetensors
+
+# Ignore virtual environments
+venv/
+newenv/
+
+# Ignore PyTorch libraries
+*.dll
+*.lib
+__pycache__/
+*.pyc
